@@ -14,7 +14,24 @@ Kelas   : TI.22.A.3
 | 3 | | |
 
 1. Gunakan perulangan while untuk memasukkan data secara berulang
+    data = []
+    stop = False
 
+    while(not stop):
+        nama = input("Nama : ")
+        nim = input("NIM : ")
+        tugas = int(input("Nilai Tugas : "))
+        uts = int(input("Nilai UTS : "))
+        uas = int(input("Nilai UAS : "))
+        akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+
+2. Gunakan perintah .append() untuk menambahkan setiap data ke dalam list
+        data.append([nama,nim,tugas,uts,uas,int(akhir)])
+
+3. Gunakan percabangan if untuk melakukan perulangan input data
+        tanya = input('Tambahkan Data (y/t) ?')
+        if (tanya == 't'):
+            stop = True
 
 Full Code :
 
