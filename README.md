@@ -55,7 +55,7 @@ Kelas   : TI.22.A.3
 
         print("______________________________________________________________")
 
-5. Tampilan Program Data ke List
+5. Tampilan Program Data kedalam List
 
 ![Code](Foto/Output.png)
 
