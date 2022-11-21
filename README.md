@@ -11,6 +11,9 @@ Kelas   : TI.22.A.3
 ## Program Menambahkan Data Kedalam Sebuah List
 
 1. Gunakan perulangan while untuk memasukkan data secara berulang
+
+
+![Code](Foto/While.png)
     
         data = []
         stop = False
@@ -24,16 +27,22 @@ Kelas   : TI.22.A.3
             akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
 
 2. Gunakan perintah .append() untuk menambahkan setiap data ke dalam list
+
+![Code](Foto/Append.png)
         
         data.append([nama,nim,tugas,uts,uas,int(akhir)])
 
 3. Gunakan percabangan if untuk melakukan perulangan input data
+
+![Code](Foto/If.png)
         
         tanya = input('Tambahkan Data (y/t) ?')
         if (tanya == 't'):
             stop = True
 
 4. Gunakan perulangan for untuk menampilkan data dari list
+
+![Code](Foto/For.png)
 
         print("______________________________________________________________")
         print("| No |    Nama      |  NIM  | Tugas |  UTS  |  UAS  |  Akhir |")
@@ -45,6 +54,10 @@ Kelas   : TI.22.A.3
             print("| {no}  | {nama:12s} | {nim:5s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |".format(no=i, nama=nilai[0], nim=nilai[1], tugas=nilai[2],uts=nilai[3],uas=nilai[4],akhir=nilai[5]))
 
         print("______________________________________________________________")
+
+5. Tampilan Program Data ke List
+
+![Code](Foto/Output.png)
 
 Full Code :
 
