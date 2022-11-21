@@ -15,16 +15,16 @@ Kelas   : TI.22.A.3
 
 1. Gunakan perulangan while untuk memasukkan data secara berulang
     
-    data = []
-    stop = False
+        data = []
+        stop = False
 
-    while(not stop):
-        nama = input("Nama : ")
-        nim = input("NIM : ")
-        tugas = int(input("Nilai Tugas : "))
-        uts = int(input("Nilai UTS : "))
-        uas = int(input("Nilai UAS : "))
-        akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+        while(not stop):
+            nama = input("Nama : ")
+            nim = input("NIM : ")
+            tugas = int(input("Nilai Tugas : "))
+            uts = int(input("Nilai UTS : "))
+            uas = int(input("Nilai UAS : "))
+            akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
 
 2. Gunakan perintah .append() untuk menambahkan setiap data ke dalam list
         
