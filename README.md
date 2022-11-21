@@ -10,7 +10,11 @@ Kelas   : TI.22.A.3
 
 ## Program Menambahkan Data Kedalam Sebuah List
 
-1. Gunakan perulangan while untuk memasukkan data secara berulang
+1. Buat Flowchart terlebih dahulu
+
+![Code](Foto/Flowchart.png)
+
+2. Gunakan perulangan while untuk memasukkan data secara berulang
 
 
 ![Code](Foto/While.png)
@@ -26,13 +30,13 @@ Kelas   : TI.22.A.3
             uas = int(input("Nilai UAS : "))
             akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
 
-2. Gunakan perintah .append() untuk menambahkan setiap data ke dalam list
+3. Gunakan perintah .append() untuk menambahkan setiap data ke dalam list
 
 ![Code](Foto/Append.png)
         
         data.append([nama,nim,tugas,uts,uas,int(akhir)])
 
-3. Gunakan percabangan if untuk melakukan perulangan input data
+4. Gunakan percabangan if untuk melakukan perulangan input data
 
 ![Code](Foto/If.png)
         
@@ -40,7 +44,7 @@ Kelas   : TI.22.A.3
         if (tanya == 't'):
             stop = True
 
-4. Gunakan perulangan for untuk menampilkan data dari list
+5. Gunakan perulangan for untuk menampilkan data dari list
 
 ![Code](Foto/For.png)
 
@@ -55,7 +59,7 @@ Kelas   : TI.22.A.3
 
         print("______________________________________________________________")
 
-5. Tampilan Program Data kedalam List
+6. Tampilan Program Data ke List
 
 ![Code](Foto/Output.png)
 
