@@ -10,7 +10,7 @@ Kelas   : TI.22.A.3
 
 ## Program Menambahkan Data Kedalam Sebuah List
 
-1. Buat Flowchart terlebih dahulu
+1. Buatlah Flowchart terlebih dahulu
 
 ![Code](Foto/Flowchart.png)
 
@@ -59,7 +59,9 @@ Kelas   : TI.22.A.3
 
         print("______________________________________________________________")
 
+6. Tampilan program saat dijalankan
 
+![Code](Foto/Output.png)
 
 Full Code :
 
