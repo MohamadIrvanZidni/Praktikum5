@@ -59,9 +59,7 @@ Kelas   : TI.22.A.3
 
         print("______________________________________________________________")
 
-6. Tampilan Program Data ke List
 
-![Code](Foto/Output.png)
 
 Full Code :
 
