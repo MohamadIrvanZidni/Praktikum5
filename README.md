@@ -8,10 +8,7 @@ NIM     : 312210308
 
 Kelas   : TI.22.A.3
 
-| No | Daftar Isi | Link |
-| 1 | | |
-| 2 | | |
-| 3 | | |
+## Program Menambahkan Data Kedalam Sebuah List
 
 1. Gunakan perulangan while untuk memasukkan data secara berulang
     
